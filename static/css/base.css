@@ -6,7 +6,8 @@ body {
     background: url('/media/houseplant-home-banner.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    font-family: 'Montserrat', sans-serif;
+    color: #555;
+    font-family: 'Lato';
 }
 
 .icon {
@@ -18,6 +19,7 @@ body {
 }
 
 .logo-font {
+    color: #198754;
     text-transform: uppercase;
 }
 
@@ -58,16 +60,17 @@ body {
     background: #000 !important;
 }
 
-/*-------------------------- MEDIA QUERIES */
-/*slightly larger container on xl screens*/
-@media (min-width:1200px) {
-    .container {
-        max-width: 80%;
-    }
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
 }
 
-/*fixed top navbar only on medium and up*/
-@media (min-width:992px) {
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
