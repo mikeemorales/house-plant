@@ -19,9 +19,9 @@
                 Live Plants
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="live-link">
-                <a href="" class="dropdown-item">Blooming</a>
-                <a href="" class="dropdown-item">Patterned</a>
-                <a href="" class="dropdown-item">Cascading</a>
+                <a href="{% url 'products' %}?category=blooming" class="dropdown-item">Blooming</a>
+                <a href="{% url 'products' %}?category=patterned" class="dropdown-item">Patterned</a>
+                <a href="{% url 'products' %}?category=cascading" class="dropdown-item">Cascading</a>
             </div>
         </li>
 
@@ -31,9 +31,9 @@
                 Faux Plants
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="faux-link">
-                <a href="" class="dropdown-item">Blooming</a>
-                <a href="" class="dropdown-item">Patterned</a>
-                <a href="" class="dropdown-item">Cascading</a>
+                <a href="{% url 'products' %}?category=blooming" class="dropdown-item">Blooming</a>
+                <a href="{% url 'products' %}?category=patterned" class="dropdown-item">Patterned</a>
+                <a href="{% url 'products' %}?category=cascading" class="dropdown-item">Cascading</a>
             </div>
         </li>
 
@@ -43,10 +43,10 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
-                <a href="" class="dropdown-item">Pots</a>
-                <a href="" class="dropdown-item">Soil</a>
-                <a href="" class="dropdown-item">Tools</a>
-                <a href="" class="dropdown-item">Lighting</a>
+                <a href="{% url 'products' %}?category=pots" class="dropdown-item">Pots</a>
+                <a href="{% url 'products' %}?category=soils" class="dropdown-item">Soil</a>
+                <a href="{% url 'products' %}?category=tools" class="dropdown-item">Tools</a>
+                <a href="{% url 'products' %}?category=lighting" class="dropdown-item">Lighting</a>
             </div>
         </li>
     </ul>
