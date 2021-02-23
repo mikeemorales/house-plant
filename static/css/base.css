@@ -10,6 +10,7 @@ body {
     font-family: 'Lato';
 }
 
+/* from Bulma */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -19,7 +20,6 @@ body {
 }
 
 .logo-font {
-    color: black;
     text-transform: uppercase;
 }
 
@@ -57,17 +57,17 @@ body {
 }
 
 .bg-black {
-    background: #000 !important;
+    background: rgb(117, 194, 117) !important;
 }
 
 .overlay {
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: white;
-    z-index: -1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 /* -------------------------------- Media Queries */
