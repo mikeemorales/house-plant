@@ -1,0 +1,56 @@
+{
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+        "name": "blooming",
+        "friendly_name": "Blooming"
+    }
+},
+{
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+        "name": "patterned",
+        "friendly_name": "Patterned"
+    }
+},
+{
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+        "name": "cascading",
+        "friendly_name": "Cascading"
+    }
+},
+{
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+        "name": "pots",
+        "friendly_name": "Pots"
+    }
+},
+{
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+        "name": "soils",
+        "friendly_name": "Soils"
+    }
+},
+{
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+        "name": "tools",
+        "friendly_name": "Tools"
+    }
+},
+{
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+        "name": "lighting",
+        "friendly_name": "Lighting"
+    }
+},

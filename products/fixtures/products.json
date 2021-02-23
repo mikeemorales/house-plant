@@ -1,0 +1,130 @@
+{
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+        "sku":"pl00001",
+        "name": "Aloe Plant",
+        "description":"This aloe is a stemless short succulent that forms clumps of rosetting bluish leaves armed with many white prickles. Each rosette measures up to 12 inches in diameter. Aloe brevifolia var. depressa is reportedly larger than the species.",
+        "price": 12.99,
+        "category": 1,
+        "rating": 4.7,
+        "image":"aloe.jpg"
+    }
+},
+{
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+        "sku":"pl00002",
+        "name": "Devil's Ivy",
+        "description":"Pothos, aka Devil's Ivy, features trailing green & yellow, heart-shaped foliage with white marble variegation. An exclusive neutral-toned, versatile planter with ribbed border detail at rim and contoured base.",
+        "price": 16.99,
+        "category": 2,
+        "rating": 4.9,
+        "image":"devils-ivy.jpeg"
+    }
+},
+{
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+        "sku":"pl00003",
+        "name": "English Ivy",
+        "description":"Decorating is easy with our English ivy. Its round-tipped gold, green and grey vines add to its unique beauty, while growing long enough to frame a small space. Designed in a sleek, white hanging planter, it’s a gift that creates as lush, lively look inside the home and out.",
+        "price": 13.99,
+        "category": 2,
+        "rating": 4.1,
+        "image":"english-ivy.jpg"
+    }
+},
+{
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+        "sku":"pl00004",
+        "name": "Eucalyptus",
+        "description":"Silver Drop' Eucalyptus Plant, sometimes called a "Cider Gum", is a great aromatic herb and has a lovely, small, silvery leaf .",
+        "price": 7.99,
+        "category": 3,
+        "rating": 3.6,
+        "image":"eucalyptus.jpg"
+    }
+},
+{
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+        "sku":"pl00005",
+        "name": "Fiddle Leaf Fig",
+        "description":"Lush and lifelike, this artificial fiddle-leaf fig plant has broad leaves, poseable branches and a sculptural silhouette that make a stylish statement in any space. Potted in a simple weighted stand, you can make this easy-care fake plant your own by placing it in a basket or pot that complements your decor.",
+        "price": 29.99,
+        "category": 3,
+        "rating": 4.9,
+        "image":"fiddle-leaf-fig.jpg"
+    }
+},
+{
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+        "sku":"pl00006",
+        "name": "Monstera",
+        "description":"With a profusion of lacy leaves and plenty of tropical appeal, this fetching monstera tree is just the thing to brighten your space.",
+        "price": 18.99,
+        "category": 2,
+        "rating": 3.9,
+        "image":"monstera.jpeg"
+    }
+},
+{
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+        "sku":"pl00007",
+        "name": "Peace Lily",
+        "description":"Featuring dark-green leaves with white blossoms, this lovely spath plant arrives freshly grown in a white ceramic pot with a chic hammered finish.",
+        "price": 39.99,
+        "category": 1,
+        "rating": 5,
+        "image":"peacelily.jpg"
+    }
+},
+{
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+        "sku":"pl00008",
+        "name": "Philodendron Plant",
+        "description":"Why is the Philodendron our most popular plant? It could be its heart-shaped vibrant green leaves, its easy-going nature, or its quick-growing trailing vines. It’s the perfect plant to show your loved one you’re rooting for them.",
+        "price": 16.99,
+        "category": 3,
+        "rating": 4.4,
+        "image":"philodendron.jpg"
+    }
+},
+{
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+        "sku":"pl00009",
+        "name": "Snake Plant",
+        "description":"The Snake Plant Zeylanica is a succulent plant characterized by its upright swordlike leaves with green reptile-like variegation.",
+        "price": 5.99,
+        "category": 2,
+        "rating":4.5,
+        "image":"snakeplant.jpg"
+    }
+},
+{
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+        "sku":"pl00010",
+        "name": "Yucca Plant",
+        "description":"This tabletop decoration features three groups of yucca plants sprouting leaves in assorted shades of green.",
+        "price": 17.99,
+        "category": 3,
+        "rating": 2.6,
+        "image":"yucca.jpg"
+    }
+},
