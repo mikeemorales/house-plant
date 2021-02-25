@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/houseplant-home-banner.jpg') no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/media/houseplant-home-banner.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -17,6 +17,10 @@ body {
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
+}
+
+.fa-leaf {
+    color: rgb(117, 194, 117);
 }
 
 .logo-font {
@@ -255,6 +259,7 @@ input[name='q']::placeholder {
     .header-container {
         padding-top: 164px;
     }
+
 }
 
 /* pad the top a bit when nav is collapsed in mobile view */
@@ -265,5 +270,9 @@ input[name='q']::placeholder {
 
     body {
         height: calc(100vh - 116px);
+    }
+    
+    .fa-leaf {
+    color: black;
     }
 }
