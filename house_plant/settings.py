@@ -26,7 +26,7 @@ SECRET_KEY = 't431h-a7+@_%@54p@g$3&ljo+r&lt#1di)6@_k+^50*d*j$=vb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['herokuadmin-house-plant-online.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['house-plant-online.herokuapp.com', 'localhost']
 
 
 # Application definition
