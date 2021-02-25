@@ -102,6 +102,9 @@
                     </fieldset>
                     <fieldset class="px-3">
                         <legend class="fieldset-label small text-black px-2 w-auto">Payment</legend>
+                        <p class="text-muted small">*FOR TESTING* - Only these card numbers will work. Enter any MM/YY(not expired), CVC, and ZIP.</p>
+                        <p class="text-muted small">#: 4000 0027 6000 3184 - authentication required</p>
+                        <p class="text-muted small">#: 4242 4242 4242 4242 - not required</p>
                         <!--Strip card will go here-->
                         <div class="mb-3" id="card-element"></div>
                         <!--display form errors-->
@@ -131,6 +134,14 @@
                 </form>
             </div>
         </div>
+    </div>
+
+    <div id="loading-overlay">
+        <h1 class="text-light logo-font loading-spinner">
+            <span class="icon">
+                <i class="fas fa-3x fa-sync-alt fa-spin"></i>
+            </span>
+        </h1>
     </div>
 {% endblock %}
 
