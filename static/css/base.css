@@ -310,10 +310,10 @@ input[name='q']::placeholder {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 390px) {
     .shop-now-button {
     background: black;
     color: white;
-    max-width: 200px;
+    min-width: 200px;
     }
 }
