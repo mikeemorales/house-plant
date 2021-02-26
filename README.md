@@ -1,45 +1,55 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+### HEROKU DEPLOYMENT
 
-Welcome mikeemorales,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+https://house-plant-proj.herokuapp.com/
 
-## Gitpod Reminders
+### House Plant
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+### Full-Stack Project 4
+HousePlant.com is intended to provide users with the power to purchase indoor plants for their new or current living situation. It is a place that offers a large variety of plant power, big to small. Users can create an account to track their purchases or simply purchase as a guest.
 
-A blue button should appear to click: *Make Public*,
+## UX
+### User Stories
+- As a user, I want to be able to purchases plants for my home.
+- As a user, I would like to have the option to create an account that will keep track of my billing/shipping information, as well as order history.
+- 
+### Strategy 
+My intention is to create a platform for users to browse and purchase indoor plants and plant accessories.
 
-Another blue button should appear to click: *Open Browser*.
+### SCOPE
+I want to create a platform for users to purchase plants and plant accessories, as well as create user profiles to manage their purchases and information.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### STRUCTURE
+The most important pages of this website are the products page and user profile page. One will provide everything you need to purchase and the other will provide a place for your to store your data and keep track of history.
 
-A blue button should appear to click: *Make Public*,
+### SKELETON
+	#### INDEX WIREFRAME
+	![index](https://github.com/mikeemorales/house-plant/blob/master/media/index%20page.PNG)
+	#### PROFILE WIREFRAME
+	![profile](https://github.com/mikeemorales/house-plant/blob/master/media/profile%20page.PNG)
+	#### PRODUCT WIREFRAME
+	![product](https://github.com/mikeemorales/house-plant/blob/master/media/product%20page.PNG)
+	#### SHOPPING WIREFRAME
+	![bag](https://github.com/mikeemorales/house-plant/blob/master/media/shopping%20bag%20page.PNG)
+  
+### SURFACE
+#### navbar will be in white with black text. it will contain the different product categories, a search bar, a login/profile button, shopping bag, and logo in the top left.
+#### Typography will be "lato" across the board.
+#### The primary colors will be black and white for simplicity, with light green accents in the logo and alert bar. This will give the product photos a more appealing and eye-catching look to the user.
 
-Another blue button should appear to click: *Open Browser*.
+## Technology
+- HTML - Django/Jinja
+- CSS - Bootstrap / custom
+- JS - custom
+- Python - Django
+- DB - Django
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Features
+This site is created with Python/Django/Jinja templating.
 
-## Updates Since The Instructional Video
+## Testing
+debugging and testing has been through terminal bugging, jinja debugging, browser source code.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+## DEPLOYMENT
+Heroku
