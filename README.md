@@ -25,7 +25,7 @@ The most important pages of this website are the products page and user profile 
 
 ### SKELETON
 	#### INDEX WIREFRAME
-	https://github.com/mikeemorales/house-plant/blob/master/media/index%20page.PNG
+	!(https://github.com/mikeemorales/house-plant/blob/master/media/index%20page.PNG)
 	#### PROFILE WIREFRAME
 	!(https://github.com/mikeemorales/house-plant/blob/master/media/profile%20page.PNG)
 	#### PRODUCT WIREFRAME
