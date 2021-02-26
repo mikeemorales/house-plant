@@ -25,13 +25,13 @@ The most important pages of this website are the products page and user profile 
 
 ### SKELETON
 	#### INDEX WIREFRAME
-	![index](https://github.com/mikeemorales/house-plant/blob/master/media/index%20page.PNG)
+	!(https://github.com/mikeemorales/house-plant/blob/master/media/index%20page.PNG)
 	#### PROFILE WIREFRAME
-	![profile](https://github.com/mikeemorales/house-plant/blob/master/media/profile%20page.PNG)
+	!(https://github.com/mikeemorales/house-plant/blob/master/media/profile%20page.PNG)
 	#### PRODUCT WIREFRAME
-	![product](https://github.com/mikeemorales/house-plant/blob/master/media/product%20page.PNG)
+	!(https://github.com/mikeemorales/house-plant/blob/master/media/product%20page.PNG)
 	#### SHOPPING WIREFRAME
-	![bag](https://github.com/mikeemorales/house-plant/blob/master/media/shopping%20bag%20page.PNG)
+	!(https://github.com/mikeemorales/house-plant/blob/master/media/shopping%20bag%20page.PNG)
   
 ### SURFACE
 #### navbar will be in white with black text. it will contain the different product categories, a search bar, a login/profile button, shopping bag, and logo in the top left.
