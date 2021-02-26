@@ -309,3 +309,11 @@ input[name='q']::placeholder {
         padding: .25rem .5rem !important;
     }
 }
+
+@media (max-width: 500px) {
+    .shop-now-button {
+    background: black;
+    color: white;
+    max-width: 200px;
+    }
+}
