@@ -122,7 +122,7 @@
     // update quantity on click
     $('.update-link').click(function(e) {
         var form = $(this).prev('.update-form');
-        form.submit()
+        form.submit();
     })
 
     // remove item and reload on click
@@ -137,6 +137,5 @@
                 location.reload();
             })
     })
-
 </script>
 {% endblock %}
