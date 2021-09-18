@@ -43,7 +43,7 @@ The most important pages of this website are the products page and user profile 
 - CSS - Bootstrap / custom
 - JS - custom
 - Python - Django
-- DB - Django
+- DB - SQLite3/Heroku-Postgres
 
 ## Features
 This site is created with Python/Django/Jinja templating.
